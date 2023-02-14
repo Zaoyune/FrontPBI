@@ -1,0 +1,107 @@
+.centers {
+  position: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rectangle-frame {
+  border: 2px solid lightgrey;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  margin-bottom: 10px;
+}
+.sizess{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+.rectangle {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.green-v-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.grey-v-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: lightgrey;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.orange-v-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: orange;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.edge-div {
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: auto;
+  border: 2px solid lightgrey;
+}
+
+table {
+  border-collapse: collapse;
+}
+td {
+  border: 2px solid lightgrey;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.center-div {
+  width: 300px;
+  height: 200px;
+}
+.contain {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.contain .btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: purple;
+  border: purple;
+}
+
+
+
+
+
+

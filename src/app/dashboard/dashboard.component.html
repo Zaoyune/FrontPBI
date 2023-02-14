@@ -1,0 +1,561 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+<div xmlns="http://www.w3.org/1999/html" class="container">
+  <div class="chart-container" style="width:60%">
+  <canvas  id="MyChart" class="center-div">{{ chart }}</canvas>
+    <div>
+      <p class="p-2" style="font-weight: bold;font-size: 20px">Actions</p>
+    </div>
+    <div class = 'rectangle-frame'[ngClass]="{'sizess': isVisible}">
+      <div>
+        <p class="p-2 d-inline-block" >Gouvernance / Stratégie</p>
+        <div class="d-inline-block" >
+        <div  class="progress"  style="width: 400px">
+          <div  class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+        </div>
+        <i id="icon" *ngIf="isVisible" class="fas fa-chevron-up pl-2" (click)="isVisible=!isVisible"></i>
+        <i id="icon" *ngIf="!isVisible"  class="fas fa-chevron-down pl-2" (click)="isVisible=!isVisible"></i>
+<!--        <div class="edge-div" *ngIf="isVisible">-->
+<!--          <div class="pl-2"><div class="pl-2" class="green-v-icon" >-->
+<!--            &#10003;-->
+<!--          </div></div>-->
+<!--        </div>-->
+
+        <table *ngIf="isVisible">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="grey-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+                <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+
+        <table *ngIf="isVisible">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="orange-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <table *ngIf="isVisible">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <table *ngIf="isVisible">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+      </div>
+    </div>
+    <!-- -->
+    <div class = 'rectangle-frame'[ngClass]="{'sizess': isVisible1}">
+      <div>
+        <p class="p-2 d-inline-block" >Gouvernance / Stratégie</p>
+        <div class="d-inline-block" >
+          <div  class="progress"  style="width: 400px">
+            <div  class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+          </div>
+        </div>
+        <i id="icon" *ngIf="isVisible1" class="fas fa-chevron-up pl-2" (click)="isVisible1=!isVisible1"></i>
+        <i id="icon" *ngIf="!isVisible1"  class="fas fa-chevron-down pl-2" (click)="isVisible1=!isVisible1"></i>
+        <!--        <div class="edge-div" *ngIf="isVisible">-->
+        <!--          <div class="pl-2"><div class="pl-2" class="green-v-icon" >-->
+        <!--            &#10003;-->
+        <!--          </div></div>-->
+        <!--        </div>-->
+
+        <table *ngIf="isVisible1">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+
+        <table *ngIf="isVisible1">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <table *ngIf="isVisible1">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <table *ngIf="isVisible1">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+      </div>
+    </div>
+    <!-- -->
+    <div class = 'rectangle-frame'[ngClass]="{'sizess': isVisible2}">
+      <div>
+        <p class="p-2 d-inline-block" >Gouvernance / Stratégie</p>
+        <div class="d-inline-block" >
+          <div  class="progress"  style="width: 400px">
+            <div  class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+          </div>
+        </div>
+        <i id="icon" *ngIf="isVisible2" class="fas fa-chevron-up pl-2" (click)="isVisible2=!isVisible2"></i>
+        <i id="icon" *ngIf="!isVisible2"  class="fas fa-chevron-down pl-2" (click)="isVisible2=!isVisible2"></i>
+        <!--        <div class="edge-div" *ngIf="isVisible">-->
+        <!--          <div class="pl-2"><div class="pl-2" class="green-v-icon" >-->
+        <!--            &#10003;-->
+        <!--          </div></div>-->
+        <!--        </div>-->
+
+        <table *ngIf="isVisible2">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+
+        <table *ngIf="isVisible2">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <table *ngIf="isVisible2">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <table *ngIf="isVisible2">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+      </div>
+    </div>
+    <!-- -->
+    <div class = 'rectangle-frame'[ngClass]="{'sizess': isVisible3}">
+      <div>
+        <p class="p-2 d-inline-block" >Gouvernance / Stratégie</p>
+        <div class="d-inline-block" >
+          <div  class="progress"  style="width: 400px">
+            <div  class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+          </div>
+        </div>
+        <i id="icon" *ngIf="isVisible3" class="fas fa-chevron-up pl-2" (click)="isVisible3=!isVisible3"></i>
+        <i id="icon" *ngIf="!isVisible3"  class="fas fa-chevron-down pl-2" (click)="isVisible3=!isVisible3"></i>
+        <!--        <div class="edge-div" *ngIf="isVisible">-->
+        <!--          <div class="pl-2"><div class="pl-2" class="green-v-icon" >-->
+        <!--            &#10003;-->
+        <!--          </div></div>-->
+        <!--        </div>-->
+
+        <table *ngIf="isVisible3">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+
+        <table *ngIf="isVisible3">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <table *ngIf="isVisible3">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <table *ngIf="isVisible3">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+      </div>
+    </div>
+    <!-- -->
+    <div class = 'rectangle-frame'[ngClass]="{'sizess': isVisible4}">
+      <div>
+        <p class="p-2 d-inline-block" >Gouvernance / Stratégie</p>
+        <div class="d-inline-block" >
+          <div  class="progress"  style="width: 400px">
+            <div  class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+          </div>
+        </div>
+        <i id="icon" *ngIf="isVisible4" class="fas fa-chevron-up pl-2" (click)="isVisible4=!isVisible4"></i>
+        <i id="icon" *ngIf="!isVisible4"  class="fas fa-chevron-down pl-2" (click)="isVisible4=!isVisible4"></i>
+        <!--        <div class="edge-div" *ngIf="isVisible">-->
+        <!--          <div class="pl-2"><div class="pl-2" class="green-v-icon" >-->
+        <!--            &#10003;-->
+        <!--          </div></div>-->
+        <!--        </div>-->
+
+        <table *ngIf="isVisible4">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+
+        <table *ngIf="isVisible4">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <table *ngIf="isVisible4">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <table *ngIf="isVisible4">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+      </div>
+    </div>
+    <!-- -->
+    <div class = 'rectangle-frame'[ngClass]="{'sizess': isVisible5}">
+      <div>
+        <p class="p-2 d-inline-block" >Gouvernance / Stratégie</p>
+        <div class="d-inline-block" >
+          <div  class="progress"  style="width: 400px">
+            <div  class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+          </div>
+        </div>
+        <i id="icon" *ngIf="isVisible5" class="fas fa-chevron-up pl-2" (click)="isVisible5=!isVisible5"></i>
+        <i id="icon" *ngIf="!isVisible5"  class="fas fa-chevron-down pl-2" (click)="isVisible5=!isVisible5"></i>
+        <!--        <div class="edge-div" *ngIf="isVisible">-->
+        <!--          <div class="pl-2"><div class="pl-2" class="green-v-icon" >-->
+        <!--            &#10003;-->
+        <!--          </div></div>-->
+        <!--        </div>-->
+
+        <table *ngIf="isVisible5">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+
+        <table *ngIf="isVisible5">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <table *ngIf="isVisible5">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <table *ngIf="isVisible5">
+          <tr>
+            <td>
+              <div >
+                <div class="pl-2"><div class="pl-2" class="green-v-icon" >
+                  &#10003;
+                </div></div>
+              </div>
+            </td>
+            <td>
+              <span style="font-weight: bold">Effectuer un bilan carbone d'entreprise.</span><span style="color: lightgrey">   +200</span>
+              <br/>
+              <span style="font-size: 10px;">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</span>
+              <button class="btn">Voir</button>
+            </td>
+          </tr>
+        </table>
+        <br>
+      </div>
+    </div>
+</div>
+
+</div>
