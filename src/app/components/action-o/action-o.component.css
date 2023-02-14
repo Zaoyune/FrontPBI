@@ -1,0 +1,68 @@
+.cla{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.clb{
+    background-color: rgb(232, 231, 231);
+}
+
+.clc{
+    padding-bottom: 30px;
+    
+}
+
+.sas{
+    padding-left: 90px;
+    padding-top: 30px;
+}
+.point{
+    padding-left: 700px;
+    color: grey;
+}
+
+ .btn-primary {
+    background: green !important;
+    color: white;
+    font-weight: bold;
+    margin-right: 70%;
+
+}
+.btn-secondary {
+    background: white !important;
+    color: green;
+    font-weight: bold;
+    border-color: green;
+
+}
+
+.footer{
+    margin-left: 35%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+ }
+
+ .tout{
+    padding-left: 90px;
+    padding-top: 30px;
+ }
+ .produit{
+    display: flex;
+    justify-content: space-between;
+ }
+ .produit1, .produit2, .produit3 {
+    border-style: solid;
+  border-color: grey;
+  padding: 20px;
+    margin: 10px;
+ }
+
+
+ .partenaire1, .partenaire2 {
+    /* width: 30%;
+    height: 100px; */
+    border-style: solid;
+    border-color: grey;
+    margin: 10px;
+    padding: 10px;
+ }
